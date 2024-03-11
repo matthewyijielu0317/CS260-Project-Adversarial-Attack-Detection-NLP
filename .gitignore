@@ -130,3 +130,10 @@ dmypy.json
 .pyre/
 
 # **/*.csv
+
+FGWS/ 
+
+# all .vscode folders, including .vscode in subfolders
+**/.vscode/
+**/archives/ 
+**/archived/
