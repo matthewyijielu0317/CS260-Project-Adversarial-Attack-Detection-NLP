@@ -1,5 +1,3 @@
-# Official implementation of the CS247 course project "Enhancing Logits Variation Interpretation for Efficient NLP Adversarial Attack Detection"
-
 ## Environment setup 
 
 ```
