@@ -30,5 +30,8 @@ python classifier_train_baseline.py
 python classifier_train_pos_filtered.py 
 ```
 
+## Data visualization 
+
+See the jupyter notebooks under `Generating Adversarial Samples/`. 
 
 
