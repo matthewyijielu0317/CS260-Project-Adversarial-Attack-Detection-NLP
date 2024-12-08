@@ -19,7 +19,7 @@ torch.manual_seed(seed)
 
 # Select the configuration for training
 test_config = 'ag-news_pwws_distilbert_logits_pos_filtered.csv'
-# test_config = 'ag-news_pwws_distilbert_logits_pos_attention.csv'
+
 
 test_downstream_coinfig = [
     "ag-news_alzantot_distilbert_logits_pos_filtered.csv", 
