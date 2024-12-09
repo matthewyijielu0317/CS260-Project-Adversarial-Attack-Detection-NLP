@@ -95,10 +95,6 @@ if hugging_face_model is True: # Use tokenizer and hugging face pipeline
             outputs.append(output.logits.cpu().numpy())
             del input
             torch.cuda.empty_cache()
-else: # Use local model by simply predicting without tokenization
-    for b in batches:
-        output = model(b)
-        outputs.append(output)
 
 # Obtain adversarial predictions
 outputs_flatten = [item for sublist in outputs for item in sublist]
